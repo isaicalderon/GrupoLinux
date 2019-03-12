@@ -1,3 +1,6 @@
+<?php 
+    require 'php/isLogin.php';
+ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -38,7 +41,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example">
+<body data-spy="scroll" data-target="#navbar-example" id="body">
 
     <div id="preloader"></div>
 
@@ -79,7 +82,17 @@
                                      -->
                                     <li><a class="page-scroll" href="#">Quienes somos</a> </li>
                                     <li><a class="page-scroll" href="#">Contactanos</a></li>
+                                <?php if ($status): ?>
+                                    <li class="dropdown"><a id="indexDrop" href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $_SESSION['name_user']; ?><span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li id="dropli"><a id="index" href=# >Drop Down 1</a></li>
+                                            <li id="dropli"><a id="index" href=# >Drop Down 2</a></li>
+                                        </ul> 
+                                    </li>
+                                <?php else: ?>
                                     <li><a class="page-scroll" href="#" data-toggle="modal" data-target="#login">Ingresar <i class="fas fa-sign-in-alt"></i></a></li>
+                                <?php endif ?>
+                                    
                                 </ul>
                             </div>
                             <!-- navbar-collapse -->
@@ -318,16 +331,16 @@
                 </div>
                 <div class="modal-body">
                 
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" action="php/login.php" method="post" id="formLogin">
                         <div class="form-group no-margin-b">
                             <div class="col-sm-10 w-100">
-                                <input type="email" class="form-control no-br-b br-1" id="inputEmail1" placeholder="Email">
+                                <input type="email" class="form-control no-br-b br-1" id="inputEmail1" placeholder="Email" name="email">
                                 <span class="fas fa-user form-control-feedback" aria-hidden="true"></span>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-10 w-100 ">
-                                <input type="password" class="form-control br-2" id="inputPassword3" placeholder="Password">
+                                <input type="password" class="form-control br-2" id="inputPassword3" placeholder="Password" name="pass">
                                 <span class="fas fa-unlock-alt form-control-feedback" aria-hidden="true"></span>
                             </div>
                         </div>
@@ -335,8 +348,8 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-info" data-dismiss="modal" data-toggle="modal" data-target="#registro">Registrarse</button>
-                    <button type="button" class="btn btn-primary">Aceptar</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" data-toggle="modal" data-target="#registro" id="cerrar">Registrarse</button>
+                    <button type="button" class="btn btn-primary" onclick="document.getElementById('formLogin').submit()">Aceptar</button>
                 </div>
             </div>
         </div>
@@ -407,7 +420,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cerrar">Cerrar</button>
                     <button type="button" class="btn btn-primary" onclick="document.getElementById('form1').submit()">Aceptar</button>
                 </div>
             </div>
@@ -489,7 +502,7 @@
                             </p>
                         </div>
                         <div class="credits">
-                            Developer: Isai Aleman
+                            <a href="https://getbootstrap.com/">Boostrap</a> - <a href="https://jquery.com/">JQuery</a> - <a href="https://bootstrapmade.com/">BootstrapMade</a>
                         </div>
 
                     </div>
@@ -517,6 +530,13 @@
     <script src="contactform/contactform.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+        $("#cerrar").click(function(){
+            $("#body").css("padding", "0");
+        });      
+
+    </script>
 </body>
 
 </html>
