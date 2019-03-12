@@ -23,7 +23,11 @@
     /*top: 10px;*/
     /*right: 20px;*/
     top: 21px;
+<<<<<<< HEAD
         right: 23px;
+=======
+    right: 23px;
+>>>>>>> 204a0b3443e6ea743715733019b57b2e2ee3a2db
 }   
 
 .form-control{
@@ -77,10 +81,25 @@
 
 @media (min-width: 768px){
     .modal-dialog {
+<<<<<<< HEAD
             width: 450px;
             margin:200px  auto;
+=======
+        width: 450px;
+        margin:200px  auto;
+>>>>>>> 204a0b3443e6ea743715733019b57b2e2ee3a2db
     }
 }
+
+@media (max-width: 1400px){
+    .modal-dialog {
+        /*margin: 20px 10px;*/
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
+
 @media (max-width: 900px){
     .modal-dialog {
         width: auto;
@@ -208,6 +227,7 @@ select option{
      .switch-box{
         margin: 0px 3px auto;
     }
+<<<<<<< HEAD
 }
 */
 
@@ -233,6 +253,8 @@ select option{
 
 #dropli:hover{
     background: #eaeaea;
+=======
+>>>>>>> 204a0b3443e6ea743715733019b57b2e2ee3a2db
 }
 @media (max-width: 767px){
     #index{
