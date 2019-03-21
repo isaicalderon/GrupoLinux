@@ -38,7 +38,7 @@
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example" id="body">
@@ -105,6 +105,7 @@
         <!-- header-area end -->
         
     </header>
+    
     <!-- header end -->
 
     <!-- Start Bottom Header -->
@@ -116,10 +117,10 @@
                     <div class="slider-content text-center">
                         <div class="header-bottom">
                             <div class="layer2 wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
-                                <h1 class="title2">Nosotros Somos GLI</h1>
+                                <h1 class="title2">Bienvenido</h1>
                             </div>
                             <div class="layer3 wow zoomInUp" data-wow-duration="2s" data-wow-delay="1s">
-                                <h2 class="title3">Te damos la bienvenida</h2>
+                                <h2 class="title3">Grupo Linux ITESCA</h2>
                             </div>
                         </div>
                     </div>
@@ -150,6 +151,19 @@
                             <div class="left-blog">
                                 <h4>publicaciones recientes</h4>
                                 <div class="recent-post">
+                                    <!-- start single post -->
+                                    <div class="recent-single-post">
+                                        <div class="post-img">
+                                            <a href="#">
+                                                     <img src="img/Flisol.jpg" alt="">
+                                                </a>
+                                        </div>
+                                        <div class="pst-content">
+                                            <p><a href="#">15to Festival Latinoamericano de Instalacion y Software libre.</a></p>
+                                        </div>
+                                    </div>
+                                    <!-- End single post -->
+                                    
                                     <!-- start single post -->
                                     <div class="recent-single-post">
                                         <div class="post-img">
@@ -281,6 +295,34 @@
                             <div class="single-blog">
                                 <div class="single-blog-img">
                                     <a href="blog-details.html">
+                                        <img src="img/Flisol.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-meta">
+                                    <span class="comments-type">
+                                            <i class="far fa-comments"></i>
+                                            <a href="#">0 comentarios</a>
+                                        </span>
+                                    <span class="date-type">
+                                        <i class="far fa-calendar-alt"></i>2019-03-21 / 09:36 AM
+                                    </span>
+                                </div>
+                                <div class="blog-text">
+                                    <h4><a href="#">Evento: FLISOL 2019</a></h4>
+                                    <p>
+                                        Se aproxima el 15to Festival Latinoamericano de Instalación de software libre y Linux. Ven y disfruta de tres conferencias y 4 talleres a tu elección.
+                                    </p>
+                                </div>
+                                <span>
+                                    <a href="blog-details.html" class="ready-btn">Leer más</a>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="single-blog">
+                                <div class="single-blog-img">
+                                    <a href="blog-details.html">
                                         <img src="img/kali-linux-wallpaper-v2.png" alt="">
                                     </a>
                                 </div>
@@ -304,6 +346,7 @@
                                 </span>
                             </div>
                         </div>
+                        
                         <div class="blog-pagination">
                             <ul class="pagination">
                                 <li><a href="#">&lt;</a></li>
@@ -438,7 +481,7 @@
                                     <img src="img/logo2.png" style="width: 40px;float: left;margin-right: 10px;" alt="" title=""> 
                                     <h2><span>G</span><span>L</span><span>I</span>MX</h2>
                                 </div>
-                                <p>informacion.</p>
+                                <p>Esta pagina esta en desarrollo.</p>
                                 <div class="footer-icons">
                                     <ul>
                                         <li>
@@ -462,11 +505,11 @@
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="footer-content">
                             <div class="footer-head">
-                                <h4>information</h4>
-                                <p>informacion</p>
+                                <h4>informacion</h4>
+                                <p>Somos el Grupo Linux de ITESCA</p>
                                 <div class="footer-contacts">
-                                    <p><span>Tel:</span> no info</p>
-                                    <p><span>Email:</span> contact@example.com</p>
+                                    <p><span>Tel:</span> (633) 102 310 8</p>
+                                    <p><span>Email:</span> shdz@itesca.edu.mx</p>
                                     <!-- <p><span>Working Hours:</span> 9am-5pm</p> -->
                                 </div>
                             </div>
