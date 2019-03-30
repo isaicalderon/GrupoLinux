@@ -291,7 +291,7 @@
                                                         <b>Aula Magna</b>
                                                     </span><br>
                                                     <b>10:00 a 18:00</b>
-                                                        <i>LEAGUE OF LEGENDS (finales).</i>
+                                                        <i>League of Legends (finales).</i>
                                                     <br>
                                                 </p>
                                                 <p class="pclass">
@@ -299,7 +299,7 @@
                                                         <b>Aula Magna</b>
                                                     </span><br>
                                                     <b>10:00 a 18:00</b>
-                                                        <i>SUPER SMASH BROS ULTIMATE.</i>
+                                                        <i>Super Smash Bros Ultimate.</i>
                                                     <br>
                                                 </p>
                                                 <p class="pclass">
@@ -307,7 +307,7 @@
                                                         <b>Aula Magna</b>
                                                     </span><br>
                                                     <b>10:00 a 18:00</b>
-                                                        <i>DRAGON BALL.</i>
+                                                        <i>Dragon Ball.</i>
                                                     <br>
                                                 </p>
                                                 
