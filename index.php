@@ -12,7 +12,7 @@
 
     <!-- Favicons -->
     <link href="img/logo2.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- <link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
@@ -154,12 +154,12 @@
                                     <!-- start single post -->
                                     <div class="recent-single-post">
                                         <div class="post-img">
-                                            <a href="#">
-                                                     <img src="img/Flisol.jpg" alt="">
-                                                </a>
+                                            <a href="flisol-2019.php">
+                                                 <img src="img/Flisol.jpg" alt="">
+                                            </a>
                                         </div>
                                         <div class="pst-content">
-                                            <p><a href="#">15to Festival Latinoamericano de Instalacion y Software libre.</a></p>
+                                            <p><a href="flisol-2019.php">15to Festival Latinoamericano de Instalacion y Software libre.</a></p>
                                         </div>
                                     </div>
                                     <!-- End single post -->
@@ -294,27 +294,32 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="single-blog">
                                 <div class="single-blog-img">
-                                    <a href="blog-details.html">
+                                    <a href="flisol-2019.php">
                                         <img src="img/Flisol.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="blog-meta">
                                     <span class="comments-type">
-                                            <i class="far fa-comments"></i>
-                                            <a href="#">0 comentarios</a>
-                                        </span>
+                                        <i class="far fa-comments"></i>
+                                        <a href="#">0 comentarios</a>
+                                    </span>
                                     <span class="date-type">
-                                        <i class="far fa-calendar-alt"></i>2019-03-21 / 09:36 AM
+                                        <i class="far fa-calendar-alt"></i>21 de Marzo 09:36 AM
+                                    </span>
+                                    <span class="comments-type">
+                                        <i class="fas fa-thumbtack"></i>
+                                        <a href="#">Fijado</a>
                                     </span>
                                 </div>
                                 <div class="blog-text">
-                                    <h4><a href="#">Evento: FLISOL 2019</a></h4>
+                                    <h4><a href="flisol-2019.php">FLISOL 2019</a></h4>
                                     <p>
                                         Se aproxima el 15to Festival Latinoamericano de Instalación de software libre y Linux. Ven y disfruta de tres conferencias y 4 talleres a tu elección.
                                     </p>
+
                                 </div>
                                 <span>
-                                    <a href="blog-details.html" class="ready-btn">Leer más</a>
+                                    <a href="flisol-2019.php" class="ready-btn">Leer más</a>
                                 </span>
                             </div>
                         </div>
@@ -508,7 +513,7 @@
                                 <h4>informacion</h4>
                                 <p>Somos el Grupo Linux de ITESCA</p>
                                 <div class="footer-contacts">
-                                    <p><span>Tel:</span> (633) 102 310 8</p>
+                                    <p><span>Tel:</span> (633) 102 310 8 - Developer.</p>
                                     <p><span>Email:</span> shdz@itesca.edu.mx</p>
                                     <!-- <p><span>Working Hours:</span> 9am-5pm</p> -->
                                 </div>
@@ -541,7 +546,7 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="copyright text-center">
                             <p>
-                                Copyright © Linux ITESCA Developers 2019. All Rights Reserved
+                                Copyright © Linux ITESCA Developers 2019. Isai Aleman.
                             </p>
                         </div>
                         <div class="credits">
