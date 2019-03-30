@@ -314,7 +314,7 @@
                                 <div class="blog-text">
                                     <h4><a href="flisol-2019.php">FLISOL 2019</a></h4>
                                     <p>
-                                        Se aproxima el 15to Festival Latinoamericano de Instalación de software libre y Linux. Ven y disfruta de tres conferencias y 4 talleres a tu elección.
+                                        Se aproxima el 15to Festival Latinoamericano de Instalación de software libre y Linux. Ven y disfruta de cuatro conferencias y cinco talleres a tu elección.
                                     </p>
 
                                 </div>
