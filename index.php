@@ -163,6 +163,24 @@
                                         </div>
                                     </div>
                                     <!-- End single post -->
+
+                                    <!-- start single post -->
+                                    <div class="recent-single-post">
+                                        <div class="post-img">
+                                            <a href="torneos-2019.php">
+                                                 <img src="img/lol.jpeg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pst-content">
+                                            <p>
+                                                <a href="torneos-2019.php">
+                                                    Torneos FLISOL 2019. <br>
+                                                    Enterate de más aquí
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- End single post -->
                                     
                                     <!-- start single post -->
                                     <div class="recent-single-post">
@@ -320,6 +338,35 @@
                                 </div>
                                 <span>
                                     <a href="flisol-2019.php" class="ready-btn">Leer más</a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="single-blog">
+                                <div class="single-blog-img">
+                                    <a href="torneos-2019.php">
+                                        <img src="img/lol.jpeg" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-meta">
+                                    <span class="comments-type">
+                                        <i class="far fa-comments"></i>
+                                        <a href="#">0 comentarios</a>
+                                    </span>
+                                    <span class="date-type">
+                                        <i class="far fa-calendar-alt"></i>01 de Abril 09:36 AM
+                                    </span>
+                                </div>
+                                <div class="blog-text">
+                                    <h4><a href="torneos-2019.php">Torneos FLISOL 2019</a></h4>
+                                    <p>
+                                        Torneo de League of Legends, Super Smash Bros Ultimate y Dragon Ball.
+                                    </p>
+
+                                </div>
+                                <span>
+                                    <a href="torneos-2019.php" class="ready-btn">Leer más</a>
                                 </span>
                             </div>
                         </div>
