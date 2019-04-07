@@ -15,7 +15,18 @@
     margin-top: 10px;
     color: white;
 }
-
+a:link { 
+    text-decoration:none; 
+} 
+.p_sec{
+    background: rgba(236, 240, 241,0.6);
+    border: 1px solid #ccc;
+    padding: 0.5%;
+    border-radius: 5px;
+    text-align: justify;
+    line-height: 1.6;
+    text-decoration: none;
+}
 
 /* MODAL LOGIN */
 

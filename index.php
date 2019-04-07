@@ -38,7 +38,11 @@
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
+    <style>
+        .area-padding{
+            padding: 85px 0px 80px;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example" id="body">
@@ -47,7 +51,7 @@
 
     <header>
         <!-- header-area start -->
-        <div id="sticker" class="header-area">
+        <div id="sticker" class="header-area" style="background: #000;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
@@ -62,7 +66,7 @@
                                         <span class="icon-bar"></span>
                                     </button>
                                 <!-- Brand -->
-                                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                                <a class="navbar-brand page-scroll sticky-logo" href="index.php">
                                     <!-- Uncomment below if you prefer to use an image logo -->
                                     <img src="img/logo2.png" style="width: 40px;float: left" alt="" title=""> 
                                     <h1 id="menu_h1"><span>G</span>rupo <span>L</span>inux <span>I</span>TESCA</h1>
@@ -108,7 +112,7 @@
     
     <!-- header end -->
 
-    <!-- Start Bottom Header -->
+    <!-- Start Bottom Header 
     <div class="header-bg page-area">
         <div class="home-overly"></div>
         <div class="container">
@@ -128,6 +132,7 @@
             </div>
         </div>
     </div>
+    -->
     <!-- END Header -->
     <div class="blog-page area-padding">
         <div class="container">
@@ -154,12 +159,13 @@
                                     <!-- start single post -->
                                     <div class="recent-single-post">
                                         <div class="post-img">
-                                            <a href="flisol-2019.php">
+                                            <a href="flisol-2019.html">
                                                  <img src="img/Flisol.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="pst-content">
-                                            <p><a href="flisol-2019.php">15to Festival Latinoamericano de Instalacion y Software libre.</a></p>
+                                            <p><a href="flisol-2019.html">15to Festival Latinoamericano de Instalacion y Software libre.</a>
+                                        </p>
                                         </div>
                                     </div>
                                     <!-- End single post -->
@@ -167,13 +173,13 @@
                                     <!-- start single post -->
                                     <div class="recent-single-post">
                                         <div class="post-img">
-                                            <a href="torneos-2019.php">
-                                                 <img src="img/lol.jpeg" alt="">
+                                            <a href="torneos-2019.html">
+                                                 <img src="img/lol.png" alt="">
                                             </a>
                                         </div>
                                         <div class="pst-content">
                                             <p>
-                                                <a href="torneos-2019.php">
+                                                <a href="torneos-2019.html">
                                                     Torneos FLISOL 2019. <br>
                                                     Enterate de más aquí
                                                 </a>
@@ -312,8 +318,8 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="single-blog">
                                 <div class="single-blog-img">
-                                    <a href="flisol-2019.php">
-                                        <img src="img/Flisol.jpg" alt="">
+                                    <a href="flisol-2019.html">
+                                        <img src="img/Flisol.jpg" alt="" style="border:1px solid #ccc;">
                                     </a>
                                 </div>
                                 <div class="blog-meta">
@@ -322,7 +328,7 @@
                                         <a href="#">0 comentarios</a>
                                     </span>
                                     <span class="date-type">
-                                        <i class="far fa-calendar-alt"></i>21 de Marzo 09:36 AM
+                                        <i class="far fa-calendar-alt"></i>06 de Abril, 2019
                                     </span>
                                     <span class="comments-type">
                                         <i class="fas fa-thumbtack"></i>
@@ -330,14 +336,14 @@
                                     </span>
                                 </div>
                                 <div class="blog-text">
-                                    <h4><a href="flisol-2019.php">FLISOL 2019</a></h4>
+                                    <h4><a href="flisol-2019.html">FLISOL 2019</a></h4>
                                     <p>
                                         Se aproxima el 15to Festival Latinoamericano de Instalación de software libre y Linux. Ven y disfruta de cuatro conferencias y cinco talleres a tu elección.
                                     </p>
 
                                 </div>
                                 <span>
-                                    <a href="flisol-2019.php" class="ready-btn">Leer más</a>
+                                    <a href="flisol-2019.html" class="ready-btn">Leer más</a>
                                 </span>
                             </div>
                         </div>
@@ -345,8 +351,8 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="single-blog">
                                 <div class="single-blog-img">
-                                    <a href="torneos-2019.php">
-                                        <img src="img/lol.jpeg" alt="">
+                                    <a href="torneos-2019.html">
+                                        <img src="img/lol.png" alt="">
                                     </a>
                                 </div>
                                 <div class="blog-meta">
@@ -359,14 +365,14 @@
                                     </span>
                                 </div>
                                 <div class="blog-text">
-                                    <h4><a href="torneos-2019.php">Torneos FLISOL 2019</a></h4>
+                                    <h4><a href="torneos-2019.html">Torneos FLISOL 2019</a></h4>
                                     <p>
                                         Torneo de League of Legends, Super Smash Bros Ultimate y Dragon Ball.
                                     </p>
 
                                 </div>
                                 <span>
-                                    <a href="torneos-2019.php" class="ready-btn">Leer más</a>
+                                    <a href="torneos-2019.html" class="ready-btn">Leer más</a>
                                 </span>
                             </div>
                         </div>
