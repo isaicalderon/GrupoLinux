@@ -160,7 +160,7 @@
                                     <div class="recent-single-post">
                                         <div class="post-img">
                                             <a href="flisol-2019.html">
-                                                 <img src="img/Flisol.jpg" alt="">
+                                                 <img src="img/FlisolV3.jpg" alt="">
                                             </a>
                                         </div>
                                         <div class="pst-content">
@@ -319,7 +319,8 @@
                             <div class="single-blog">
                                 <div class="single-blog-img">
                                     <a href="flisol-2019.html">
-                                        <img src="img/Flisol.jpg" alt="" style="border:1px solid #ccc;">
+                                        <img src="img/FlisolV3.jpg" alt="" style="margin-bottom: 10px">
+                                        <img src="img/posterv2.jpg" alt="" style="border:1px solid #ccc;">
                                     </a>
                                 </div>
                                 <div class="blog-meta">
